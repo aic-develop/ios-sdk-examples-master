@@ -1,0 +1,10 @@
+# Ignore the file containing your Mapbox access token, to keep it out of public repos.
+mapbox_access_token
+
+xcuserdata
+DerivedData/
+Pods
+*.xcworkspace
+
+fastlane/README.md
+fastlane/report.xml
