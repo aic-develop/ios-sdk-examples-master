@@ -2,7 +2,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 def shared_pods
-    pod 'VietMaps', '0.1.3'
+    pod 'VietMaps', '1.0.0'
     pod 'SwiftLint', '~> 0.29'
 end
 

@@ -6,7 +6,7 @@ class StudioClassicStyleExample_Swift: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let styleURL = URL(string: "https://www.mapbox.com/ios-sdk/files/mapbox-raster-v8.json")
+        let styleURL = URL(string: "vietmap://styles/default/style.json")
         // Local paths are also acceptable.
 
         let mapView = MGLMapView(frame: view.bounds, styleURL: styleURL)

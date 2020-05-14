@@ -12,8 +12,7 @@ class CameraFlyToExample_Swift: UIViewController, MGLMapViewDelegate {
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 
         // Sets Honolulu, Hawaii as the camera's starting point.
-        let honolulu = CLLocationCoordinate2D(latitude: 21.3069,
-                                              longitude: -157.8583)
+        let honolulu = CLLocationCoordinate2D(latitude: 21.028716, longitude: 105.776217)
         mapView.setCenter(honolulu,
                           zoomLevel: 14, animated: false)
 
@@ -26,7 +25,7 @@ class CameraFlyToExample_Swift: UIViewController, MGLMapViewDelegate {
         // Waits for the mapView to finish loading before setting up the camera.
         // Defines the destination camera as Hawaii Island.
         let camera = MGLMapCamera(lookingAtCenter:
-            CLLocationCoordinate2D(latitude: 19.784213, longitude: -155.784605),
+            CLLocationCoordinate2D(latitude: 20.028716, longitude: 104.776217),
                                   altitude: 35000, pitch: 70, heading: 90)
 
         // Goes from Honolulu to destination camera.

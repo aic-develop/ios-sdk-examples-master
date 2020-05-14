@@ -15,7 +15,7 @@ NSString const *MBXExampleCameraFlyTo = @"CameraFlyToExample";
     mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     // Sets Honolulu, Hawaii as the camera's starting point.
-    CLLocation *honolulu = [[CLLocation alloc] initWithLatitude:21.3069 longitude:-157.8583];
+    CLLocation *honolulu = [[CLLocation alloc] initWithLatitude:21.028716 longitude:105.776217];
     [mapView setCenterCoordinate:honolulu.coordinate
                        zoomLevel:14 animated:NO];
     
@@ -27,7 +27,7 @@ NSString const *MBXExampleCameraFlyTo = @"CameraFlyToExample";
     
     // Waits for the mapView to finish loading before setting up the camera.
     // Defines the destination camera as Hawaii Island.
-    MGLMapCamera *camera = [MGLMapCamera cameraLookingAtCenterCoordinate:CLLocationCoordinate2DMake(19.784213, -155.784605) altitude:35000 pitch:70 heading:90];
+    MGLMapCamera *camera = [MGLMapCamera cameraLookingAtCenterCoordinate:CLLocationCoordinate2DMake(20.028716, 104.776217) altitude:35000 pitch:70 heading:90];
     
     // Goes from Honolulu to destination camera.
     [mapView flyToCamera:camera withDuration:4.0 peakAltitude:3000 completionHandler:nil];

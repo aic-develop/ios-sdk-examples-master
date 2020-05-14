@@ -8,7 +8,7 @@ NSString *const MBXExampleStudioClassicStyle = @"StudioClassicStyleExample";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSURL *styleURL = [NSURL URLWithString:@"https://www.mapbox.com/ios-sdk/files/mapbox-raster-v8.json"];
+    NSURL *styleURL = [NSURL URLWithString:@"vietmap://styles/default/style.json"];
     // Local paths are also acceptable.
 
     MGLMapView *mapView = [[MGLMapView alloc] initWithFrame:self.view.bounds styleURL:styleURL];

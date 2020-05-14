@@ -10,7 +10,7 @@ class SimpleMapViewExample_Swift: UIViewController {
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 
         // Set the map’s center coordinate and zoom level.
-        mapView.setCenter(CLLocationCoordinate2D(latitude: 59.31, longitude: 18.06), zoomLevel: 9, animated: false)
+        mapView.setCenter(CLLocationCoordinate2D(latitude: 21.028716, longitude: 105.776217), zoomLevel: 9, animated: false)
         view.addSubview(mapView)
     }
 }

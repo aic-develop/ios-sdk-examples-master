@@ -18,7 +18,7 @@ NSString *const MBXExampleCameraAnimation = @"CameraAnimationExample";
     mapView.styleURL = [MGLStyle outdoorsStyleURL];
 
     // Mauna Kea, Hawaii
-    CLLocationCoordinate2D center = CLLocationCoordinate2DMake(19.820689, -155.468038);
+    CLLocationCoordinate2D center = CLLocationCoordinate2DMake(21.028716, 105.776217);
 
     // Optionally set a starting point.
     [mapView setCenterCoordinate:center zoomLevel:7 direction:0 animated:NO];

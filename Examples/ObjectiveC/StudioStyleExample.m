@@ -10,14 +10,14 @@ NSString *const MBXExampleStudioStyle = @"StudioStyleExample";
 
     // Replace the string in the URL below with your custom style URL from Mapbox Studio.
     // Read more about style URLs here: https://www.mapbox.com/help/define-style-url/
-    NSURL *styleURL = [NSURL URLWithString:@"mapbox://styles/mapbox/outdoors-v9"];
+    NSURL *styleURL = [NSURL URLWithString:@"vietmap://styles/default/style.json"];
     MGLMapView *mapView = [[MGLMapView alloc] initWithFrame:self.view.bounds
                                                    styleURL:styleURL];
 
     mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 
     // Set the map’s center coordinate and zoom level.
-    [mapView setCenterCoordinate:CLLocationCoordinate2DMake(45.52954, -122.72317)
+    [mapView setCenterCoordinate:CLLocationCoordinate2DMake(21.028716, 105.776217)
                        zoomLevel:14
                         animated:NO];
 

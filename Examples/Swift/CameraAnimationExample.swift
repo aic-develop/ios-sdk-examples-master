@@ -13,7 +13,7 @@ class CameraAnimationExample_Swift: UIViewController, MGLMapViewDelegate {
         mapView.styleURL = MGLStyle.outdoorsStyleURL
 
         // Mauna Kea, Hawaii
-        let center = CLLocationCoordinate2D(latitude: 19.820689, longitude: -155.468038)
+        let center = CLLocationCoordinate2D(latitude: 21.028716, longitude: 105.776217)
 
         // Optionally set a starting point.
         mapView.setCenter(center, zoomLevel: 7, direction: 0, animated: false)
